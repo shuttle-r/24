@@ -1,0 +1,45 @@
+{
+  "bot-account": {
+    "username": "Herobrine",
+    "password": "",
+    "type": "mojang"
+  },
+  "server": {
+    "ip": "gold.magmanode.com",
+    "port": 32056,
+    "version": "1.12.1"
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "your_password"
+    },
+    "chat-messages": {
+      "enabled": false,
+      "messages": [
+        "This server is running 24/7",
+        "Another message",
+        "Welcome to the server!",
+        "Enjoy your stay!",
+        "Don't forget to invite your friends!",
+        "Check out the new updates!",
+        "Follow the rules and have fun!",
+        "Thanks for playing with us!"
+      ],
+      "repeat": true,
+      "repeat-delay": 30
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true,
+      "hit": true
+    },
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  },
+  "positions": [
+    { "enabled": true, "x": -463, "y": 84, "z": 235 },
+    { "enabled": true, "x": -455, "y": 84, "z": 235 }
+  ],
+  "infinite": true
+}
